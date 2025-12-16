@@ -6,7 +6,7 @@ import EditPage from "./pages/Edit";
 
 function App() {
   return (
-    <BrowserRouter basename="https://danilvin.github.io/MemeGenerator/">
+    <BrowserRouter basename="/MemeGenerator/">
     <div className='App'>
       <h1 style={{marginLeft:"50px"}}>Meme Generator</h1>
       <Routes>
