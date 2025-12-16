@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import { useState, useRef } from "react";
 import { Button } from "react-bootstrap";
 import { useSearchParams } from "react-router-dom";
 import Text from "../components/Text";
@@ -45,7 +45,7 @@ const EditPage = () => {
                 <img src={params.get("url") || undefined} width="250px"/>
                 {Array (count)
                 .fill(0)
-                .map((e) => (
+                .map(() => (
                     <Text />
                 ))}
             </div>

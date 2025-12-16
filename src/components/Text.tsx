@@ -42,12 +42,12 @@ const Text = () => {
         >
             {EditMode ? (
                 <input
-                    onDoubleClick={(e) => setEditMode(false)}
+                    onDoubleClick={() => setEditMode(false)}
                     value={val}
                     onChange={(e) => setVal(e.target.value)}
                 />
             ) : (
-                <h1 onDoubleClick={(e) => setEditMode(true)}>{val}</h1>
+                <h1 onDoubleClick={() => setEditMode(true)}>{val}</h1>
             )}
         </div>
     );

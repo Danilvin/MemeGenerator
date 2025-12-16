@@ -1,4 +1,3 @@
-import React from 'react';
 import { useNavigate } from "react-router-dom";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
@@ -13,7 +12,7 @@ const MemeCard = (props :any) => {
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Button
-         onClick={(e) => navigate(`/edit?url=${props.img}`)} 
+         onClick={() => navigate(`/edit?url=${props.img}`)} 
          variant="primary"
         >
             Edit
