@@ -1,7 +1,7 @@
 {
   "name": "memes",
   "private": true,
-  "homepage": "/MemeGenerator/",
+  "homepage": "https://danilvin.github.io/MemeGenerator/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
